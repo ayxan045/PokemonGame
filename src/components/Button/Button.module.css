@@ -1,0 +1,42 @@
+.btn{
+    cursor: pointer;
+    color: white;
+    border-radius: 5px;
+    transition: .2s;
+}
+.btn:hover{
+    opacity: .8;
+}
+.btn:active{
+    transform: scale(.95);
+}
+
+/* COLOR TYPE */
+.danger{
+    background-color: red;
+}
+.primary{
+    background-color: blue;
+}
+.warning{
+    background-color: orange;
+}
+.success{
+    background-color: green;
+}   
+
+
+/* SIZE TYPE */
+.small{
+    padding: 4px 8px;
+    font-size: 12px;
+}
+.medium{
+    padding: 8px 12px;
+    font-size: 16px;
+}
+.large{
+    padding: 12px 16px;
+    font-size: 20px;
+}
+
